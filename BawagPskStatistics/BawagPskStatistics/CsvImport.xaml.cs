@@ -10,22 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace BawagPskStatistics
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CsvImport.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CsvImport : Window
     {
-        public MainWindow()
+        public CsvImport()
         {
             InitializeComponent();
         }
 
-        private void MiImportNewDataSet_Click(object sender, RoutedEventArgs e)
+        private void BtnSelectAndImport_Click(object sender, RoutedEventArgs e)
         {
 
         }

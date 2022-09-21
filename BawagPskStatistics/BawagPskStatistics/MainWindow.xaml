@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" Background="White">
+            <MenuItem Header="_File">
+                <MenuItem Name="MiImportNewDataSet" Header="Import" Click="MiImportNewDataSet_Click" />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+        </Menu>
+        <Separator  Grid.Row="1"/>
     </Grid>
 </Window>

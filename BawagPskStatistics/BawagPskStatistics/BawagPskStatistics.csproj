@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Multi-Currency-Money" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Resources\DownloadLocation.png" />
   </ItemGroup>
 
